@@ -24,3 +24,5 @@ compile 'com.google.android.gms:play-services-location:11.0.4'
 // apply plugin: 'com.google.gms.google-services'
 // class must be used instead of id(string) to be able to apply plugin from non-root gradle file
 apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
+
+com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
